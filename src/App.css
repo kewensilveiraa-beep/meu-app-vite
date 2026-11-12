@@ -127,13 +127,20 @@
   height: 100%;
 }
 
+.pokemon-card-art img {
+  width: 60%;
+  height: 60%;
+  place-self: center;
+  object-position: center;
+}
+
 .trading-card-caption {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 6px;
   color: #fff8df;
-  font-size: 0.68rem;
+  font-size: 0.32rem;
 }
 
 .trading-card-caption strong {
@@ -193,10 +200,6 @@
 .dashboard-panel {
   flex: 1 1 42%;
   min-width: 0;
-  width: 110%;
-  max-width: 110%;
-  transform: scaleX(1.1);
-  transform-origin: left center;
   background: rgba(167, 181, 197, 0.22);
   backdrop-filter: blur(4px);
   padding: 20px 22px 18px;
