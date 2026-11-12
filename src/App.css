@@ -109,6 +109,7 @@
 }
 
 .dragon-card-art {
+  position: relative;
   background: radial-gradient(circle at 50% 42%, #592c9b, #17113e 58%, #09091c 100%);
 }
 
@@ -117,6 +118,13 @@
   height: 100%;
   object-fit: contain;
   filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.3));
+}
+
+.dragon-card-art img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .trading-card-caption {
